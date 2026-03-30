@@ -14,3 +14,5 @@ jobs:
       - run: ruff check oculus_webhook tests || true
       - run: pytest tests/ -q || true
       - run: echo "verify ok"
+
+# pass 6
