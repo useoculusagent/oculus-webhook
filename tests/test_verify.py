@@ -13,3 +13,5 @@ def test_verify_signature_bad():
     assert verify_signature("topsecret", b'{}', "sha256=deadbeef") is False
     assert verify_signature("topsecret", b'{}', "") is False
     assert verify_signature("topsecret", b'{}', "md5=abc") is False
+
+# pass 8
