@@ -25,3 +25,5 @@ def test_verify_signature_bad():
 # pass 42
 
 # pass 43
+
+# pass 48
